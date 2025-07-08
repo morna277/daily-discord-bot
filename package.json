@@ -1,0 +1,15 @@
+{
+  "name": "discord-global-bot-example",
+  "version": "1.0.0",
+  "description": "Discord bot with global slash commands example",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "register": "node register-commands.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.21.0",
+    "dotenv": "^16.6.1",
+    "node-cron": "^3.0.2"
+  }
+}
